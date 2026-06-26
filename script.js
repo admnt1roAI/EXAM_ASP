@@ -43,6 +43,7 @@ const PREGUNTAS_100 = [
   {id:28, q:"¿Cómo se llamaba inicialmente el Día del Bombero Voluntario del Perú?", options:["Día del Bombero Voluntario del Perú","Día del Bombero Heroico","Día del Bombero Solidario","Día del Bombero Voluntario y Heroico"], answer:"b", explanation:"Inicialmente fue llamado Día del Bombero Heroico."},
   {id:29, q:"¿En qué año se reglamentó el lema institucional 'Dios, Patria, Humanidad'?", options:["2007","1990","2015","1985"], answer:"a", explanation:"El lema institucional fue reglamentado en el año 2007."},
   {id:30, q:"¿Cuáles son los elementos de la comunicación?", options:["Emisor, receptor, mensaje, canal, código y contexto.","Solo el intercambio verbal.","No tiene elementos específicos.","Solo incluye emisor y receptor."], answer:"a", explanation:"La comunicación incluye emisor, receptor, mensaje, canal, código y contexto."}
+  {id:31, q:"¿Cuáles son los elementosn?", options:["Emisor, receptor, mensaje, canal, código y contexto.","Solo el intercambio verbal.","No tiene elementos específicos.","Solo incluye emisor y receptor."], answer:"a", explanation:"La comunicación incluye emisor, receptor, mensaje, canal, código y contexto."}
 ];
 
 
@@ -76,7 +77,7 @@ function csvEscape(value){
    -------------------- */
 
 let preguntasMostradas = [];           // array con las 20 preguntas que se muestran
-const TOTAL_MUESTRA = 30;              // número de preguntas por examen (20)
+const TOTAL_MUESTRA = 31;              // número de preguntas por examen (20)
 
 function generarPreguntasAleatorias(){
   // mezclamos todo el banco y tomamos los primeros TOTAL_MUESTRA
